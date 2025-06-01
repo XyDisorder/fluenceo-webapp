@@ -1,0 +1,27 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Définition du dégradé -->
+  <defs>
+    <linearGradient id="iconGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4f46e5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#7c3aed;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Cercle de fond -->
+  <circle cx="50" cy="50" r="45" fill="url(#iconGradient)"/>
+  
+  <!-- Icône utilisateur -->
+  <g transform="translate(50, 50)">
+    <!-- Tête -->
+    <circle cx="0" cy="-10" r="12" fill="white"/>
+    
+    <!-- Corps/Épaules -->
+    <path d="M -20 18 
+             C -20 8, -14 2, 0 2
+             C 14 2, 20 8, 20 18
+             C 20 25, 17 28, 12 28
+             L -12 28
+             C -17 28, -20 25, -20 18 Z" 
+          fill="white"/>
+  </g>
+</svg>

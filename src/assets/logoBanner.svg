@@ -1,0 +1,11 @@
+<svg width="400" height="100" viewBox="0 0 400 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Symbole fluide -->
+    <circle cx="50" cy="50" r="35" fill="#2563EB"/> <!-- Blue-600 -->
+    <path d="M50 30C40 30 33 37 33 50C33 61 40 70 50 70C58 70 62 65 62 60C62 55 58 52 54 52C50 52 48 54 48 56"
+          stroke="white" stroke-width="3" stroke-linecap="round"/>
+
+    <!-- Texte -->
+    <text x="100" y="62" font-family="Segoe UI, sans-serif" font-size="40" fill="white" font-weight="600">
+        Fluenceo
+    </text>
+</svg>
